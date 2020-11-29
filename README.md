@@ -6,4 +6,4 @@ Finding an open SMTP server is difficult, so for the server use the following co
 
 python3 -m smtpd -c DebuggingServer -n 127.0.0.1:2000
 
-This creates a fake server that will respond to messages. Use the IP address 127.0.0.1 in both the server and the client.
+This creates a fake server that will respond to messages. The IP address 127.0.0.1 is used in both the server and the client.
